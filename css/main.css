@@ -1,0 +1,29 @@
+@font-face {
+    font-family: sdAsian;
+    src: url(SDAsian_demo.ttf);
+  }
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-color: rgb(255, 225, 107);
+    background-image: url(sushibg.jpg);
+    background-size: cover;
+    filter: grayscale(50%)
+  }
+
+  header{
+    padding-top: 15%;
+    font-family: sdAsian;
+    font-size: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: white;
+
+    
+  }
